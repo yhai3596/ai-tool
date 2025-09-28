@@ -1,8 +1,10 @@
 {
+  "version": 2,
   "buildCommand": "cd aiverse && npm run build",
   "outputDirectory": "aiverse/dist",
   "installCommand": "cd aiverse && npm ci",
   "framework": "vite",
+  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
